@@ -4,3 +4,9 @@ H:\rabota\C#\HW_01_12_2018\HW_01_12_2018\bin\Debug\HW_01_12_2018.pdb
 H:\rabota\C#\HW_01_12_2018\HW_01_12_2018\obj\Debug\HW_01_12_2018.exe
 H:\rabota\C#\HW_01_12_2018\HW_01_12_2018\obj\Debug\HW_01_12_2018.pdb
 H:\rabota\C#\HW_01_12_2018\HW_01_12_2018\obj\Debug\HW_01_12_2018.csprojResolveAssemblyReference.cache
+C:\Users\Андрей\Desktop\tmp\Testing\HW_01_12_2018\HW_01_12_2018\bin\Debug\HW_01_12_2018.exe.config
+C:\Users\Андрей\Desktop\tmp\Testing\HW_01_12_2018\HW_01_12_2018\obj\Debug\HW_01_12_2018.pdb
+C:\Users\Андрей\Desktop\tmp\Testing\HW_01_12_2018\HW_01_12_2018\bin\Debug\HW_01_12_2018.exe
+C:\Users\Андрей\Desktop\tmp\Testing\HW_01_12_2018\HW_01_12_2018\bin\Debug\HW_01_12_2018.pdb
+C:\Users\Андрей\Desktop\tmp\Testing\HW_01_12_2018\HW_01_12_2018\obj\Debug\HW_01_12_2018.csprojResolveAssemblyReference.cache
+C:\Users\Андрей\Desktop\tmp\Testing\HW_01_12_2018\HW_01_12_2018\obj\Debug\HW_01_12_2018.exe

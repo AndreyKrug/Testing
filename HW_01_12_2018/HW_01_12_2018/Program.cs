@@ -35,7 +35,7 @@ namespace HW_01_12_2018
         /// <param name="tuple">Tuple(List<Car>, decimal)</param>
         static void zadanie1 (Tuple<List<Car>,decimal> tuple)
         {
-            //в кортеже передается список авто и цена
+            
             int count = 0;
             foreach(Car car in tuple.Item1)
             {
@@ -54,7 +54,7 @@ namespace HW_01_12_2018
         /// <param name="tuple">Tuple(List<Car>, string)</param>
         static void zadanie2(Tuple<List<Car>, string> tuple)
         {
-            //в кортеже передается список авто и цвет
+            
             int count = 0;
             foreach(Car car in tuple.Item1)
             {
@@ -74,7 +74,7 @@ namespace HW_01_12_2018
         /// <param name="tuple">Tuple(List<Car>,decimal,string)</param>
         static void zadanie3(Tuple<List<Car>,decimal,string> tuple)
         {
-            //в кортеже передается список авто и критерии выбора: цена, марка
+            
             int count = 0;
             foreach(Car car in tuple.Item1)
             {
@@ -109,7 +109,7 @@ namespace HW_01_12_2018
         /// <returns>int</returns>
         static int zadanie5(Tuple<List<Car>, string> tuple)
         {
-            //в кортеже передается список авто и цвет авто как критерий для поиска
+            
             int count = 0;            
             count = tuple.Item1.Count(car => car.Color == tuple.Item2);
             return count;
@@ -122,7 +122,7 @@ namespace HW_01_12_2018
         /// <param name="tuple">Tuple(List<Car>,decimal)</param>
         static void zadanie6(Tuple<List<Car>,decimal> tuple)
         {
-            //в кортеже передается список авто, а также критерий поиска: цена
+            
             var res = tuple.Item1.Where(c => c.Price < tuple.Item2).Select(i => new { Mark = i.Mark, Model = i.Model });
             
             if (res.Count() > 0)
@@ -149,9 +149,7 @@ namespace HW_01_12_2018
         /// <returns>Tuple(int,int)</returns>
         static Tuple<int,int>  zadanie7(Tuple<List<Car>, decimal, decimal, string, string> tuple) 
         {
-            //в кортеже передается список авто, нижний диапазон цены, верхний диапазон цены,
-            //два цвета
-            //Возвращается кортеж: первое значение количество авто первого цвета, второе-кол-во авто второго цвета
+            
             int count_color1 = 0;
             int count_color2 = 0;
             count_color1 = tuple.Item1.Count(c => c.Price >= tuple.Item2 && c.Price <= tuple.Item3 && c.Color == tuple.Item4);
